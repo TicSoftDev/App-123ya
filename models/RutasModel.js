@@ -4,4 +4,5 @@ export const publicRoutes = {
 
 export const privateRoutes = {
     Home: "Home",
+    DetalleCredito: "DetalleCredito",
 }
