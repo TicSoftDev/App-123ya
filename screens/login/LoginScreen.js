@@ -33,7 +33,7 @@ const LoginScreen = () => {
               </View>
             </View>
             <View className="w-3/4">
-              <TouchableOpacity className="flex items-center rounded-full p-3 my-2 bg-rosado" onPress={() => navigation.navigate(privateRoutes.Home)}>
+              <TouchableOpacity className="flex items-center rounded-full p-3 my-2 bg-rosado" onPress={() => navigation.navigate(privateRoutes.HOME)}>
                 <Text className="font-bold text-white text-base uppercase">Ingresar</Text>
               </TouchableOpacity>
               <TouchableOpacity className="flex items-center rounded-full p-3 mt-2 border-2 border-rosado" >

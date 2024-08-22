@@ -11,10 +11,10 @@ const HomeScreen = () => {
     const navigation = useNavigation();
 
     const quickActions = [
-        { icon: 'hand-holding-dollar', text: 'Solicitar crédito', route: "" },
-        { icon: 'dollar', text: 'Ver crédito', route: privateRoutes.DetalleCredito },
-        { icon: 'money-bill-wave', text: 'Pagar cuota', route: "" },
-        { icon: 'calculator', text: 'Simular crédito', route: "" },
+        { icon: 'hand-holding-dollar', text: 'Solicitar crédito', route: privateRoutes.SOLICITAR_CREDITO },
+        { icon: 'dollar', text: 'Ver crédito', route: privateRoutes.DETALLE_CREDITO },
+        { icon: 'money-bill-wave', text: 'Pagar cuota', route: privateRoutes.PAGAR_CREDITO },
+        { icon: 'calculator', text: 'Simular crédito', route: privateRoutes.SIMULAR_CREDITO },
     ];
 
     return (
@@ -39,7 +39,7 @@ const HomeScreen = () => {
                         <Text className="text-gray-500 text-xs mt-1">Actualizado: 21 de agosto, 2024</Text>
                         <TouchableOpacity
                             className="bg-rosado mt-3 py-2 px-4 rounded-full self-start"
-                            onPress={() => navigation.navigate(privateRoutes.DetalleCredito)}
+                            onPress={() => navigation.navigate(privateRoutes.DETALLE_CREDITO)}
                         >
                             <Text className="text-white font-semibold">Ver detalles</Text>
                         </TouchableOpacity>

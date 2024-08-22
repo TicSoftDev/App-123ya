@@ -1,8 +1,11 @@
 export const publicRoutes = {
-    Login: "/",
+    LOGIN: "/",
 };
 
 export const privateRoutes = {
-    Home: "Home",
-    DetalleCredito: "DetalleCredito",
+    HOME: "Home",
+    SOLICITAR_CREDITO: "SolicitarCredito",
+    DETALLE_CREDITO: "DetalleCredito",
+    PAGAR_CREDITO: "PagarCredito",
+    SIMULAR_CREDITO: "SimularCredito",
 }

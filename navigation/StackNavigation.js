@@ -18,13 +18,13 @@ export default function StackNavigation() {
     return (
         <Stack.Navigator>
             <Stack.Group>
-                <Stack.Screen name={publicRoutes.Login} component={LoginScreen} options={options} />
+                <Stack.Screen name={publicRoutes.LOGIN} component={LoginScreen} options={options} />
             </Stack.Group>
             <Stack.Group>
-                <Stack.Screen name={privateRoutes.Home} component={HomeScreen} options={{
+                <Stack.Screen name={privateRoutes.HOME} component={HomeScreen} options={{
                     headerTitle: () => <HeaderNavigation />, headerLeft: () => null, headerStyle: styles.headerStyle
                 }} />
-                <Stack.Screen name={privateRoutes.DetalleCredito} component={DetalleCreditoScreen} options={{
+                <Stack.Screen name={privateRoutes.DETALLE_CREDITO} component={DetalleCreditoScreen} options={{
                     headerTitle: () => <HeaderNavigation />, headerStyle: styles.headerStyle
                 }} />
             </Stack.Group>
