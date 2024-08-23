@@ -9,14 +9,17 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "imageBackgroundResizeMode": "center",
+      "fadeOutDuration": 300,
+      "fadeInDuration": 500
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icono.jpg",
         "backgroundColor": "#ffffff"
       }
     },
